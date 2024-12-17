@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Magra, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c8baa1;
+    background-image:url(images/curvy-narrow-muddy-road-dark-forest-surrounded-by-greenery-little-light-coming-from.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+h1, h2, h3 {
+    color: #1f140d;
+}
+
+/* Fejléc */
+header {
+    background-color: #516246;
+    padding: 20px;
+    text-align: center;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #c8baa1;
+    text-decoration:solid;
+    font-weight: regular;
+    top: 100px;
+}
+
+/* Intro szekció */
+.intro {
+    background-color: #5e4e2f84;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2em;
+}
+
+/* Jellemzők szekció */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 60px;
+    background-color: #cedcc4c7;
+}
+
+.feature-box {
+    background-color: #2e612e76;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.feature-box h3 {
+    font-size: 1.5em;
+}
+
+/* Lábléc */
+footer {
+    background-color: #46483c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+section {
+    display:grid;
+    min-height: 50vh;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+    max-width: 300px;  
+    height: auto;  
+}
